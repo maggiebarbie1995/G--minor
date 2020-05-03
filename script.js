@@ -14,4 +14,5 @@ function wawa() {
     year = parseInt(date.slice(0, 4)); 
     if ((dayDay <= 0 || dayDay > 31) || (month <= 0 || month > 12)) {
         alert("You entered invalid date.");
+        var birthWeek = ( ( (centuryDigits/4) -2*centuryDigits-1) + ((5*yearDigits/4) ) + ((26*(month+1)/10)) + dayDay ) % 7;
       }
