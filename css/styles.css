@@ -25,3 +25,9 @@ h2 {
   text-align: center;
   color: violet;
 }
+p {
+  font-size: 22px; 
+  line-height: 40px;
+  font-family: sans-serif;
+  text-align: center;
+}
