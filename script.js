@@ -25,4 +25,8 @@ function wawa() {
     maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame']; 
     femaleNames =['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
     var akanName;
+    if (gender === "male"){ akanName = maleNames[birthWeekTrunc]; }
+    else { akanName = femaleNames[birthWeekTrunc]; }
+    document.getElementById('alert').innerHTML = 'Your akan name is: ' + akanName;
+  }  
       
