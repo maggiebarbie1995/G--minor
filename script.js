@@ -7,3 +7,8 @@ function wawa() {
     var month;
     var dayDay;
     var year;
+    centuryDigits = parseInt(date.slice(0, 2));
+    yearDigits = parseInt(date.slice(2, 4));
+    month = parseInt(date.slice(5, 7));
+    dayDay = parseInt(date.slice(8, 10));
+    year = parseInt(date.slice(0, 4)); 
